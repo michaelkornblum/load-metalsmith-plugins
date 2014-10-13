@@ -7,8 +7,9 @@
 var Metalsmith = require("metalsmith");
 var plugins = require("load-metalsmith-plugins")();
 
-Metalsmith(__dirname).use(plugins.markdown()).build();
-
+Metalsmith(__dirname)
+.use(plugins.markdown())
+.build();
 ```
 
 ## License
