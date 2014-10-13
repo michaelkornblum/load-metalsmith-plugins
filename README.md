@@ -1,5 +1,4 @@
-# load-metalsmith-plugins
-
+# load-metalsmith-plugins [![Build Status](https://travis-ci.org/karlbright/load-metalsmith-plugins.svg?branch=master)](https://travis-ci.org/karlbright/load-metalsmith-plugins)
 > Load Metalsmith plugins found within package.json.
 
 ## Example
