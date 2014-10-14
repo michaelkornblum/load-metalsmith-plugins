@@ -14,5 +14,5 @@ Metalsmith(__dirname)
 
 ## License
 
-[MIT](http://opensource.org/licenses/MIT) © [Karl Brightman](http://kalrbright.org)
+[MIT](http://opensource.org/licenses/MIT) © [Karl Brightman](http://karlbright.org)
 
