@@ -12,6 +12,15 @@ Metalsmith(__dirname)
 .build();
 ```
 
+## Options
+
+* camelCase (Boolean) - CamelCase the mutliword plugins (so
+  `metalsmith-build-date` would turn into `plugins.buildDate`)
+
+  ```
+  var plugins = require("load-metalsmith-plugins")({camelCase: true});
+  ```
+
 ## License
 
 [MIT](http://opensource.org/licenses/MIT) © [Karl Brightman](http://karlbright.org)
