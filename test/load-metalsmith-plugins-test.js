@@ -16,3 +16,19 @@ test("loads metalsmith plugins", function(t) {
   });
 });
 
+test("loads metalsmith plugins (camelCase)", function(t) {
+  var plugins = require("../load-metalsmith-plugins")({camelCase: true});
+  Metalsmith(__dirname)
+  .use(plugins.markdown())
+  .use(plugins.buildDate())
+  .build(function(err, files) {
+    t.plan(3);
+    var file = __dirname + '/build/hello.html';
+    t.ok(true, fs.existsSync(file));
+    t.ok(this._metadata.date instanceof Date, 'Must have a date');
+    t.equal(fs.readFileSync(file,{encoding: 'utf-8'}),
+        "<h1 id=\"hello-world\">Hello world</h1>\n");
+    t.end();
+  });
+});
+
