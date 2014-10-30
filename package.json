@@ -19,6 +19,9 @@
     "test": "tap test/*.js"
   },
   "author": "Karl Brightman <karl@karlbright.org>",
+  "contributors": [
+    "ksmithut (https://github.com/ksmithut)"
+  ],
   "license": "MIT",
   "dependencies": {
     "findup-sync": "^0.1.3",

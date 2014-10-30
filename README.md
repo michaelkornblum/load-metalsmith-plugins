@@ -9,17 +9,11 @@ var plugins = require("load-metalsmith-plugins")();
 
 Metalsmith(__dirname)
 .use(plugins.markdown())
+.use(plugins.buildDate())
 .build();
 ```
 
-## Options
 
-* camelCase (Boolean) - CamelCase the mutliword plugins (so
-  `metalsmith-build-date` would turn into `plugins.buildDate`)
-
-  ```
-  var plugins = require("load-metalsmith-plugins")({camelCase: true});
-  ```
 
 ## License
 
