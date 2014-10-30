@@ -1,6 +1,6 @@
 {
   "name": "load-metalsmith-plugins",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Load Metalsmith plugins found within package.json",
   "keywords": [
     "metalsmith",
