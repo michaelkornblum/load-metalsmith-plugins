@@ -24,7 +24,7 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "findup-sync": "^0.1.3",
+    "findup-sync": "^2.0.0",
     "multimatch": "^2.1.0"
   },
   "devDependencies": {
